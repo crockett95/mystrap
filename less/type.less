@@ -27,7 +27,7 @@ strong  { font-weight: bold; }
 em      { font-style: italic; }
 cite    { font-style: normal; }
 
-mark { background: @highlightColor; color: inherit; }
+mark 	{ background: @highlightColor; color: inherit; }
 
 // Utility classes
 .muted               { color: @mutedText; }
@@ -59,18 +59,18 @@ a.text-success:focus { color: darken(@successText, 10%); }
 // -------------------------
 
 h1, h2, h3, h4, h5, h6 {
-  margin: @baseLineHeight 0 0 0;
-  font-family: @headingsFontFamily;
-  font-weight: @headingsFontWeight;
-  line-height: @baseLineHeight;
-  color: @headingsColor;
+	margin: @baseLineHeight 0 0 0;
+	font-family: @headingsFontFamily;
+	font-weight: @headingsFontWeight;
+	line-height: @baseLineHeight;
+	color: @headingsColor;
 	.headings-text-shadow();
-  -moz-text-rendering: optimizelegibility; // Fix the character spacing for headings
-  small {
-    font-weight: normal;
-    line-height: 1;
-    color: @mutedText;
-  }
+	-moz-text-rendering: optimizelegibility; // Fix the character spacing for headings
+	small {
+		font-weight: normal;
+		line-height: 1;
+		color: @mutedText;
+	}
 }
 
 h1,
@@ -96,9 +96,9 @@ h1 {
 // -------------------------
 
 .page-header {
-  padding-bottom: (@pixelLineHeight / 2) - 1px;
-  margin: @baseLineHeight 0 (@baseLineHeight * 1.5);
-  border-bottom: 1px solid @hrBorder;
+	padding-bottom: (@pixelLineHeight / 2) - 1px;
+	margin: @baseLineHeight 0 (@baseLineHeight * 1.5);
+	border-bottom: 1px solid @hrBorder;
 }
 
 
@@ -108,67 +108,67 @@ h1 {
 
 // Unordered and Ordered lists
 ul, ol {
-  padding: 0;
-  margin: 0 0 @baseLineHeight 25px;
+	padding: 0;
+	margin: 0 0 @baseLineHeight 25px;
 }
 ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 li {
-  line-height: @baseLineHeight;
+	line-height: @baseLineHeight;
 }
 
 // Remove default list styles
 ul.unstyled,
 ol.unstyled {
-  margin-left: 0;
-  list-style: none;
+	margin-left: 0;
+	list-style: none;
 }
 
 // Single-line list items
 ul.inline,
 ol.inline {
-  margin-left: 0;
-  list-style: none;
-  > li {
-    display: inline-block;
-    .ie7-inline-block();
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+	margin-left: 0;
+	list-style: none;
+	> li {
+		display: inline-block;
+		.ie7-inline-block();
+		padding-left: 5px;
+		padding-right: 5px;
+	}
 }
 
 // Description Lists
 dl {
-  margin-bottom: @baseLineHeight;
+	margin-bottom: @baseLineHeight;
 }
 dt,
 dd {
 	color: @headingsColor;
-  line-height: @baseLineHeight;
+	line-height: @baseLineHeight;
 }
 dt {
-  font-weight: bold;
+	font-weight: bold;
 }
 dd {
-  margin-left: @baseLineHeight / 2;
+	margin-left: @baseLineHeight / 2;
 }
 // Horizontal layout (like forms)
 .dl-horizontal {
-  .clearfix(); // Ensure dl clears floats if empty dd elements present
-  dt {
-    float: left;
-    width: @horizontalComponentOffset - 20;
-    clear: left;
-    text-align: right;
-    .text-overflow();
-  }
-  dd {
-    margin-left: @horizontalComponentOffset;
-  }
+	.clearfix(); // Ensure dl clears floats if empty dd elements present
+	dt {
+		float: left;
+		width: @horizontalComponentOffset - 20;
+		clear: left;
+		text-align: right;
+		.text-overflow();
+	}
+	dd {
+		margin-left: @horizontalComponentOffset;
+	}
 }
 
 // MISC
@@ -190,55 +190,55 @@ hr {
 abbr[title],
 // Added data-* attribute to help out our tooltip plugin, per https://github.com/twitter/bootstrap/issues/5257
 abbr[data-original-title] {
-  cursor: help;
-  border-bottom: 1px dotted @hrBorder;
+	cursor: help;
+	border-bottom: 1px dotted @hrBorder;
 }
 abbr.initialism {
-  font-size: 90%;
-  line-height: @baseLineHeight * 0.9;
-  text-transform: uppercase;
+	font-size: 90%;
+	line-height: @baseLineHeight * 0.9;
+	text-transform: uppercase;
 }
 
 // Blockquotes
 blockquote {
-  padding: 0 0 0 15px;
-  margin: 0 0 @baseLineHeight;
-  border-left: 5px solid @hrBorder;
-  p {
-    margin-bottom: 0;
-    font-size: @baseFontSize * 1.25;
-    font-weight: 300;
-    line-height: @baseLineHeight;
-  }
-  small {
-    display: block;
-    line-height: @baseLineHeight;
-    color: @mutedText;
-    &:before {
-      content: '\2014 \00A0';
-    }
-  }
+	padding: 0 0 0 15px;
+	margin: 0 0 @baseLineHeight;
+	border-left: 5px solid @hrBorder;
+	p {
+		margin-bottom: 0;
+		font-size: @baseFontSize * 1.25;
+		font-weight: 300;
+		line-height: @baseLineHeight;
+	}
+	small {
+		display: block;
+		line-height: @baseLineHeight;
+		color: @mutedText;
+		&:before {
+			content: '\2014 \00A0';
+		}
+	}
 
-  // Float right with text-align: right
-  &.pull-right {
-    float: right;
-    padding-right: 15px;
-    padding-left: 0;
-    border-right: 5px solid @hrBorder;
-    border-left: 0;
-    p,
-    small {
-      text-align: right;
-    }
-    small {
-      &:before {
-        content: '';
-      }
-      &:after {
-        content: '\00A0 \2014';
-      }
-    }
-  }
+	// Float right with text-align: right
+	&.pull-right {
+		float: right;
+		padding-right: 15px;
+		padding-left: 0;
+		border-right: 5px solid @hrBorder;
+		border-left: 0;
+		p,
+		small {
+			text-align: right;
+		}
+		small {
+			&:before {
+				content: '';
+			}
+			&:after {
+				content: '\00A0 \2014';
+			}
+		}
+	}
 }
 
 // Quotes
@@ -246,15 +246,15 @@ q:before,
 q:after,
 blockquote:before,
 blockquote:after {
-  content: "";
+	content: "";
 }
 
 // Addresses
 address {
-  display: block;
-  margin-bottom: @baseLineHeight;
-  font-style: normal;
-  line-height: @baseLineHeight;
+	display: block;
+	margin-bottom: @baseLineHeight;
+	font-style: normal;
+	line-height: @baseLineHeight;
 }
 
 //
@@ -264,20 +264,20 @@ address {
 
 @media (max-width: 767px) {
 
-  // TYPOGRAPHY
-  // ----------
-  // Reset horizontal dl
-  .dl-horizontal {
-    dt {
-      float: none;
-      clear: none;
-      width: auto;
-      text-align: left;
-    }
-    dd {
-      margin-left: 0;
-    }
-  }
+	// TYPOGRAPHY
+	// ----------
+	// Reset horizontal dl
+	.dl-horizontal {
+		dt {
+			float: none;
+			clear: none;
+			width: auto;
+			text-align: left;
+		}
+		dd {
+			margin-left: 0;
+		}
+	}
 
 }
 
@@ -288,10 +288,10 @@ address {
 
 @media (max-width: 480px) {
 
-  // Block level the page header small tag for readability
-  .page-header h1 small {
-    display: block;
-    line-height: @baseLineHeight;
-  }
+	// Block level the page header small tag for readability
+	.page-header h1 small {
+		display: block;
+		line-height: @baseLineHeight;
+	}
 
 }

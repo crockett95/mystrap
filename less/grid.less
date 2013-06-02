@@ -12,31 +12,31 @@
 // Reset utility classes due to specificity
 [class*="span"].hide,
 .row-fluid [class*="span"].hide {
-  display: none;
+	display: none;
 }
 
 [class*="span"].pull-right,
 .row-fluid [class*="span"].pull-right {
-  float: right;
+	float: right;
 }
 
 @media (min-width: 1200px) {
 
-  // Fixed grid
-  #grid > .core(@gridColumnWidth1200, @gridGutterWidth1200);
+	// Fixed grid
+	#grid > .core(@gridColumnWidth1200, @gridGutterWidth1200);
 
-  // Fluid grid
-  #grid > .fluid(@fluidGridColumnWidth1200, @fluidGridGutterWidth1200);
+	// Fluid grid
+	#grid > .fluid(@fluidGridColumnWidth1200, @fluidGridGutterWidth1200);
 
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
 
-  // Fixed grid
-  #grid > .core(@gridColumnWidth768, @gridGutterWidth768);
+	// Fixed grid
+	#grid > .core(@gridColumnWidth768, @gridGutterWidth768);
 
-  // Fluid grid
-  #grid > .fluid(@fluidGridColumnWidth768, @fluidGridGutterWidth768);
+	// Fluid grid
+	#grid > .fluid(@fluidGridColumnWidth768, @fluidGridGutterWidth768);
 
 }
 
@@ -47,37 +47,37 @@
 
 @media (max-width: 767px) {
 
-  // GRID & CONTAINERS
-  // -----------------
-  // Remove width from containers
-  .container {
-    width: auto;
-  }
-  // Fluid rows
-  .row-fluid {
-    width: 100%;
-  }
-  // Undo negative margin on rows and thumbnails
-  .row {
-    margin-left: 0;
-  }
-  // Make all grid-sized elements block level again
-  [class*="span"],
-  .uneditable-input[class*="span"], // Makes uneditable inputs full-width when using grid sizing
-  .row-fluid [class*="span"] {
-    float: none;
-    display: block;
-    width: 100%;
-    margin-left: 0;
-    .box-sizing(border-box);
-  }
-  .span12,
-  .row-fluid .span12 {
-    width: 100%;
-    .box-sizing(border-box);
-  }
-  .row-fluid [class*="offset"]:first-child {
-    margin-left: 0;
-  }
+  	// GRID & CONTAINERS
+	// -----------------
+	// Remove width from containers
+	.container {
+		width: auto;
+	}
+	// Fluid rows
+	.row-fluid {
+		width: 100%;
+	}
+	// Undo negative margin on rows and thumbnails
+	.row {
+		margin-left: 0;
+	}
+	// Make all grid-sized elements block level again
+	[class*="span"],
+	.uneditable-input[class*="span"], // Makes uneditable inputs full-width when using grid sizing
+	.row-fluid [class*="span"] {
+		float: none;
+		display: block;
+		width: 100%;
+		margin-left: 0;
+		.box-sizing(border-box);
+	}
+	.span12,
+	.row-fluid .span12 {
+		width: 100%;
+		.box-sizing(border-box);
+	}
+	.row-fluid [class*="offset"]:first-child {
+		margin-left: 0;
+	}
 
 }
