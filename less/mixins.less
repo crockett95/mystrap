@@ -390,7 +390,6 @@
 // Opacity
 .opacity(@opacity) {
 	opacity: @opacity / 100;
-	filter: ~"alpha(opacity=@{opacity})";
 }
 
 
@@ -428,7 +427,6 @@
 		background-image: -o-linear-gradient(left, @startColor, @endColor); // Opera 11.10
 		background-image: linear-gradient(to right, @startColor, @endColor); // Standard, IE10
 		background-repeat: repeat-x;
-		filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)",argb(@startColor),argb(@endColor))); // IE9 and down
 	}
 	.vertical(@startColor: #555, @endColor: #333) {
 		background-color: mix(@startColor, @endColor, 60%);
@@ -438,7 +436,6 @@
 		background-image: -o-linear-gradient(top, @startColor, @endColor); // Opera 11.10
 		background-image: linear-gradient(to bottom, @startColor, @endColor); // Standard, IE10
 		background-repeat: repeat-x;
-		filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down
 	}
 	.directional(@startColor: #555, @endColor: #333, @deg: 45deg) {
 		background-color: @endColor;
@@ -456,7 +453,6 @@
 		background-image: -o-linear-gradient(left, @startColor, @midColor @colorStop, @endColor);
 		background-image: linear-gradient(to right, @startColor, @midColor @colorStop, @endColor);
 		background-repeat: no-repeat;
-		filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down, gets no color-stop at all for proper fallback
 	}
 
 	.vertical-three-colors(@startColor: #00b3ee, @midColor: #7a43b6, @colorStop: 50%, @endColor: #c3325f) {
@@ -467,7 +463,6 @@
 		background-image: -o-linear-gradient(@startColor, @midColor @colorStop, @endColor);
 		background-image: linear-gradient(@startColor, @midColor @colorStop, @endColor);
 		background-repeat: no-repeat;
-		filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down, gets no color-stop at all for proper fallback
 	}
 	.radial(@innerColor: #555, @outerColor: #333) {
 		background-color: @outerColor;
@@ -486,10 +481,7 @@
 		background-image: linear-gradient(@angle, rgba(255,255,255,.15) 25%, transparent 25%, transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%, transparent 75%, transparent);
 	}
 }
-// Reset filters for IE
-.reset-filter() {
-	filter: e(%("progid:DXImageTransform.Microsoft.gradient(enabled = false)"));
-}
+
 
 
 
@@ -730,6 +722,32 @@
 	*margin-right: .3em;
 }
 
+.opacity(@opacity) when (@ieHacks)	{
+	filter: ~"alpha(opacity=@{opacity})";
+}
+
+
+// Gradients
+#gradient {
+	.horizontal(@startColor: #555, @endColor: #333) when (@ieHacks) {
+		filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)",argb(@startColor),argb(@endColor))); // IE9 and down
+	}
+	.vertical(@startColor: #555, @endColor: #333) when (@ieHacks) {
+		filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down
+	}
+	.horizontal-three-colors(@startColor: #00b3ee, @midColor: #7a43b6, @colorStop: 50%, @endColor: #c3325f) when (@ieHacks) {
+		filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down, gets no color-stop at all for proper fallback
+	}
+	.vertical-three-colors(@startColor: #00b3ee, @midColor: #7a43b6, @colorStop: 50%, @endColor: #c3325f) when (@ieHacks) {
+		filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@startColor),argb(@endColor))); // IE9 and down, gets no color-stop at all for proper fallback
+	}
+
+}
+// Reset filters for IE
+.reset-filter() when (@ieHacks) {
+	filter: e(%("progid:DXImageTransform.Microsoft.gradient(enabled = false)"));
+}
+
 // Component Mixins
 .nav-divider-ie(@top, @bottom) when (@ieHacks) {
 	// IE7 needs a set width since we gave a height. Restricting just
@@ -813,16 +831,84 @@
 	}
 }
 
+// Forms
+// ------------------
 
+.table-bordered-ie() when (@ieHacks)	{
+	*border-collapse: collapse; // IE7 can't round corners anyway
+}
 
+// Forms
+// ------------------
 
+.dropdown-toggle-ie() when (@ieHacks)	{
+	// The caret makes the toggle a bit too tall in IE7
+	*margin-bottom: -3px;
+}
 
+.dropdown-menu-ie() when (@ieHacks)	{
+	*border-right-width: 2px;
+	*border-bottom-width: 2px;
+}
 
+.open-ie() when (@ieHacks) {
+	// IE7's z-index only goes to the nearest positioned ancestor, which would
+	// make the menu appear below buttons that appeared later on the page
+	*z-index: @zindexDropdown;
+}
 
+// Buttons
+// ------------------
 
+.btn-border-ie() when (@ieHacks)	{
+	*border: 0; // Remove the border to prevent IE7's black border on input:focus
+}
+.btn-padding-ie(@paddingTop, @paddingBottom) when (@ieHacks)	{
+	*padding-top: @paddingTop;
+	*padding-bottom: @paddingBottom;
+}
 
+// Navs
+// -------------------
 
+.tabs-right-border-ie(@jankColor) when (@ieHacks)	{
+	*border-right-color: @jankColor;
+}
 
+.tabs-left-border-ie(@jankColor) when (@ieHacks)	{
+	*border-left-color: @jankColor;
+}
+
+// Navbar
+// -------------------
+
+.navbar-ie() when (@ieHacks)	{
+	// Fix for IE7's bad z-indexing so dropdowns don't appear below content that follows the navbar
+  	*position: relative;
+  	*z-index: 2;
+}
+
+// Modals
+// -------------------
+
+.modal-border-ie(@jankColor) when (@ieHacks)	{
+  	*border: 1px solid @jankColor; /* IE6-7 */
+}
+
+// Media
+// -------------------
+
+.media-cf-ie() when (@ieHacks)	{
+	*overflow: visible;
+	zoom: 1;
+}
+
+// Utilities
+// --------------------
+
+.metro-viewport-ie() when (@ieHacks)	{
+	@-ms-viewport{width: device-width;}
+}
 
 
 

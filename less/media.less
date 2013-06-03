@@ -9,28 +9,27 @@
 // Clear the floats
 .media,
 .media-body {
-  overflow: hidden;
-  *overflow: visible;
-  zoom: 1;
+	overflow: hidden;
+	.media-cf-ie();
 }
 
 // Proper spacing between instances of .media
 .media,
 .media .media {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 .media:first-child {
-  margin-top: 0;
+	margin-top: 0;
 }
 
 // For images and videos, set to block
 .media-object {
-  display: block;
+	display: block;
 }
 
 // Reset margins on headings for tighter default spacing
 .media-heading {
-  margin: 0 0 5px;
+	margin: 0 0 5px;
 }
 
 
@@ -38,10 +37,10 @@
 // -------------------------
 
 .media > .pull-left {
-  margin-right: 10px;
+	margin-right: 10px;
 }
 .media > .pull-right {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 
@@ -50,8 +49,8 @@
 
 // Undo default ul/ol styles
 .media-list {
-  margin-left: 0;
-  list-style: none;
+	margin-left: 0;
+	list-style: none;
 }
 
 
@@ -60,18 +59,18 @@
 
 @media (max-width: 480px) {
 
-  // Medias
-  // Reset float and spacing to stack
-  .media .pull-left,
-  .media .pull-right  {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-  }
-  // Remove side margins since we stack instead of indent
-  .media-object {
-    margin-right: 0;
-    margin-left: 0;
-  }
+	// Medias
+	// Reset float and spacing to stack
+	.media .pull-left,
+	.media .pull-right  {
+		float: none;
+		display: block;
+		margin-bottom: 10px;
+	}
+	// Remove side margins since we stack instead of indent
+	.media-object {
+		margin-right: 0;
+		margin-left: 0;
+	}
 
 }
