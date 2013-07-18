@@ -18,11 +18,12 @@ table {
 
 .table {
 	width: 100%;
-	margin-bottom: @baseLineHeight;
+  margin-top: -1px;
+	margin-bottom: @pixelLineHeight;
 	// Cells
 	th,
 	td {
-		padding: 8px;
+		padding: @pixelLineHeight / 2 @pixelLineHeight / 2 @pixelLineHeight / 2 - 1;
 		line-height: @baseLineHeight;
 		text-align: left;
 		vertical-align: top;
@@ -30,6 +31,7 @@ table {
 	}
 	th {
 		font-weight: bold;
+    font-size: @baseFontSize * 1.1;
 	}
 	// Bottom align for column headings
 	thead th {
@@ -63,7 +65,8 @@ table {
 .table-condensed {
 	th,
 	td {
-		padding: 4px 5px;
+		padding: 0 5px;
+    line-height: @baseLineHeight - 0.1;
 	}
 }
 

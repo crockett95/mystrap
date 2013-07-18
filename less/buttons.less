@@ -68,9 +68,10 @@
 
 // Large
 .btn-large {
-	padding: @paddingLarge;
+	padding: @paddingLargeY @paddingLargeX;
 	font-size: @fontSizeLarge;
 	.border-radius(@borderRadiusLarge);
+  margin: @pixelLineHeight - @paddingLargeY - 1 0;
 }
 .btn-large [class^="icon-"],
 .btn-large [class*=" icon-"] {
@@ -79,9 +80,10 @@
 
 // Small
 .btn-small {
-	padding: 8px 2px;
+	padding: @paddingSmallY @paddingSmallX;
 	font-size: @fontSizeSmall;
 	.border-radius(@borderRadiusSmall);
+  margin: @pixelLineHeight / 2 - @paddingSmallY - 1 0;
 }
 .btn-small [class^="icon-"],
 .btn-small [class*=" icon-"] {
@@ -94,9 +96,10 @@
 
 // Mini
 .btn-mini {
-	padding: @paddingMini;
+	padding: @paddingMiniY @paddingSmallX;
 	font-size: @fontSizeMini;
 	.border-radius(@borderRadiusSmall);
+  margin: -3px 0;
 }
 
 
@@ -109,11 +112,7 @@
 	padding-left: 0;
 	padding-right: 0;
 	.box-sizing(border-box);
-}
-
-// Vertically space out multiple block buttons
-.btn-block + .btn-block {
-	margin-top: 5px;
+	margin: 0 0 @pixelLineHeight;
 }
 
 // Specificity overrides
