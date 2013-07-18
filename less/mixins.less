@@ -133,7 +133,7 @@
 .input-block-level {
 	display: block;
 	width: 100%;
-	min-height: @inputHeight; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+	min-height: @pixelLineHeight + 10px; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
 	.box-sizing(border-box); // Makes inputs behave like true block-level elements
 }
 
@@ -322,43 +322,30 @@
 // Default value is `visible`, but can be changed to `hidden
 // See git pull https://github.com/dannykeane/bootstrap.git backface-visibility for examples
 .backface-visibility(@visibility){
-
-
-	        backface-visibility: @visibility;
+  backface-visibility: @visibility;
 }
 
 // Background clipping
 // Heads up: FF 3.6 and under need "padding" instead of "padding-box"
 .background-clip(@clip) {
-
-
-	        background-clip: @clip;
+  background-clip: @clip;
 }
 
 // Background sizing
 .background-size(@size) {
-
-
-
-	        background-size: @size;
+  background-size: @size;
 }
 
 
 // Box sizing
 .box-sizing(@boxmodel) {
-
-
-	        box-sizing: @boxmodel;
+  box-sizing: @boxmodel;
 }
 
 // User select
 // For selecting text on the page
 .user-select(@select) {
-
-
-
-
-	        user-select: @select;
+  user-select: @select;
 }
 
 // Resize anything
@@ -369,22 +356,14 @@
 
 // CSS3 Content Columns
 .content-columns(@columnCount, @columnGap: @gridGutterWidth) {
-
-
-	        column-count: @columnCount;
-
-
-	        column-gap: @columnGap;
+  column-count: @columnCount;
+  column-gap: @columnGap;
 }
 
 // Optional hyphenation
 .hyphens(@mode: auto) {
 	word-wrap: break-word;
-
-
-
-
-	        hyphens: @mode;
+	hyphens: @mode;
 }
 
 // Opacity
