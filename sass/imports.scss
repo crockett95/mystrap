@@ -1,0 +1,61 @@
+// Import all less files for compiling
+//
+// Imported by 'mystrap.less' and 'mystrap-ie.less
+// ---------------------------------------------------------
+
+// Core variables and mixins
+@import "fonts.less"; // SC added - to import fonts for use
+@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "mixins.less"; //validations and indents complete
+
+// CSS Reset
+@import "normalize.less"; //validations and indents complete
+
+// Grid system and page structure
+@import "scaffolding.less"; //validations and indents complete
+@import "grid.less"; //validations and indents complete
+@import "layouts.less"; //validations and indents complete
+
+// Base CSS
+@import "type.less"; //validations and indents complete
+@import "code.less"; //validations and indents complete
+@import "forms.less"; //validations and indents complete
+//@import "tables.less"; //validations and indents complete
+
+// Components: common
+//@import "sprites.less";
+//@import "dropdowns.less"; //validations and indents complete
+//@import "wells.less"; //validations and indents complete
+//@import "component-animations.less"; //validations and indents complete
+//@import "close.less"; //validations and indents complete
+
+// Components: Buttons & Alerts
+@import "buttons.less"; //validations and indents complete
+//@import "button-groups.less"; //validations and indents complete
+//@import "alerts.less"; // Note: alerts share common CSS with buttons and thus have styles in buttons.less //validations and indents complete
+
+// Components: Nav
+//@import "navs.less"; //validations and indents complete
+//@import "navbar.less"; //validations and indents complete
+//@import "breadcrumbs.less"; //validations and indents complete
+//@import "pagination.less"; //validations and indents complete
+//@import "pager.less"; //validations and indents complete
+
+// Components: Popovers
+//@import "modals.less"; //validations and indents complete
+//@import "tooltip.less"; //validations and indents complete
+//@import "popovers.less"; //validations and indents complete
+
+// Components: Misc
+//@import "thumbnails.less"; //validations and indents complete
+//@import "media.less"; //validations and indents complete
+//@import "labels-badges.less"; //validations and indents complete
+//@import "progress-bars.less"; //validations and indents complete
+//@import "accordion.less"; //validations and indents complete
+//@import "carousel.less"; //validations and indents complete
+//@import "hero-unit.less"; //validations and indents complete
+
+// Utility classes
+//@import "utilities.less"; // Has to be last to override when necessary  //validations and indents complete
+
+

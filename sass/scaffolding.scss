@@ -1,0 +1,79 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+// Root Font Size for rem
+// -------------------------
+// Set so that 0.1rem = 1px, for pixel based design with rem functionality
+
+:root	{
+	font-size: 62.5%;
+}
+
+// Body reset
+// -------------------------
+
+body {
+	margin: 0;
+	font-family: @baseFontFamily;
+	font-size: @baseFontSize;
+	line-height: @baseLineHeight;
+	color: @textColor;
+	background-color: @bodyBackground;
+	.body-text-shadow();
+}
+
+
+// Links
+// -------------------------
+
+a {
+	color: @linkColor;
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	color: @linkColorHover;
+	text-decoration: underline;
+}
+
+
+// Images
+// -------------------------
+
+// Rounded corners
+.img-rounded {
+	.border-radius(@imageRoundedRadius);
+	.image-box-shadow();
+}
+
+
+// Add polaroid-esque trim
+.img-polaroid {
+	padding: 4px;
+	background-color: @imagePolaroidBackground;
+	border: 1px solid @imagePolaroidBorder;
+	border: 1px solid @imagePolaroidBorder2;
+	.image-box-shadow();
+}
+
+// Perfect circle
+.img-circle {
+	.border-radius(50%); // crank the border-radius so it works with most reasonably sized images
+	.image-box-shadow();
+}
+
+//
+// Responsive: Landscape phone to desktop/tablet
+// --------------------------------------------------
+
+
+@media (max-width: 767px) {
+
+	// Padding to set content in a bit
+	body {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+  
+}
