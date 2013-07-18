@@ -24,8 +24,6 @@
   display: block;
   width: 100%;
   min-height: 2.4rem;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 /* line 10, /Users/crockett/Development/CSS/mystrap/less/normalize.less */
@@ -212,8 +210,6 @@ input[type="radio"] {
 }
 /* line 190, /Users/crockett/Development/CSS/mystrap/less/normalize.less */
 input[type="search"] {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   -webkit-appearance: textfield;
 }
@@ -303,8 +299,6 @@ body {
   line-height: 2.4rem;
   color: #222222;
   background-color: #ffffff;
-  -webkit-text-shadow: -1px -1px 0px #eeeeee;
-  -moz-text-shadow: -1px -1px 0px #eeeeee;
   text-shadow: -1px -1px 0px #eeeeee;
 }
 /* line 30, /Users/crockett/Development/CSS/mystrap/less/scaffolding.less */
@@ -320,11 +314,7 @@ a:focus {
 }
 /* line 45, /Users/crockett/Development/CSS/mystrap/less/scaffolding.less */
 .img-rounded {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
   border-radius: 6px;
-  -webkit-box-shadow: 1px 1px 0px 0px #999999;
-  -moz-box-shadow: 1px 1px 0px 0px #999999;
   box-shadow: 1px 1px 0px 0px #999999;
 }
 /* line 52, /Users/crockett/Development/CSS/mystrap/less/scaffolding.less */
@@ -333,17 +323,11 @@ a:focus {
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 1px 1px 0px 0px #999999;
-  -moz-box-shadow: 1px 1px 0px 0px #999999;
   box-shadow: 1px 1px 0px 0px #999999;
 }
 /* line 61, /Users/crockett/Development/CSS/mystrap/less/scaffolding.less */
 .img-circle {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   border-radius: 50%;
-  -webkit-box-shadow: 1px 1px 0px 0px #999999;
-  -moz-box-shadow: 1px 1px 0px 0px #999999;
   box-shadow: 1px 1px 0px 0px #999999;
 }
 @media (max-width: 767px) {
@@ -497,8 +481,6 @@ a:focus {
   display: block;
   width: 100%;
   min-height: 2.4rem;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   float: left;
   margin-left: 2.127659574468085%;
@@ -810,8 +792,6 @@ a:focus {
     display: block;
     width: 100%;
     min-height: 2.4rem;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     float: left;
     margin-left: 2.564102564102564%;
@@ -1114,8 +1094,6 @@ a:focus {
     display: block;
     width: 100%;
     min-height: 2.4rem;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     float: left;
     margin-left: 2.7624309392265194%;
@@ -1294,16 +1272,12 @@ a:focus {
     display: block;
     width: 100%;
     margin-left: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   /* line 74, /Users/crockett/Development/CSS/mystrap/less/grid.less */
   .span12,
   .row-fluid .span12 {
     width: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   /* line 79, /Users/crockett/Development/CSS/mystrap/less/grid.less */
@@ -1445,10 +1419,7 @@ h6 {
   font-weight: bold;
   line-height: 2.4rem;
   color: inherit;
-  -webkit-text-shadow: 1px 1px 0px #999999;
-  -moz-text-shadow: 1px 1px 0px #999999;
   text-shadow: 1px 1px 0px #999999;
-  -moz-text-rendering: optimizelegibility;
 }
 /* line 69, /Users/crockett/Development/CSS/mystrap/less/type.less */
 h1 small,
@@ -1606,8 +1577,6 @@ hr {
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   overflow: visible;
-  -webkit-box-shadow: 1px 1px 0px 0px #999999;
-  -moz-box-shadow: 1px 1px 0px 0px #999999;
   box-shadow: 1px 1px 0px 0px #999999;
 }
 /* line 190, /Users/crockett/Development/CSS/mystrap/less/type.less */
@@ -1708,8 +1677,6 @@ pre {
   font-size: 0.85em;
   line-height: 2.04rem;
   color: #222222;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 18, /Users/crockett/Development/CSS/mystrap/less/code.less */
@@ -1734,12 +1701,8 @@ pre {
   background-color: #f5f5f5;
   border: 1px solid #dcdcdc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
   color: #222222;
-  -webkit-box-shadow: 1px 1px 0px 0px #999999;
-  -moz-box-shadow: 1px 1px 0px 0px #999999;
   box-shadow: 1px 1px 0px 0px #999999;
 }
 /* line 45, /Users/crockett/Development/CSS/mystrap/less/code.less */
@@ -1762,7 +1725,7 @@ pre code {
 }
 /* line 10, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 form {
-  margin: 0 0 2.4rem;
+  margin: 2.4rem 0 2.4rem;
 }
 /* line 14, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 fieldset {
@@ -1775,17 +1738,17 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 2.4rem;
+  margin-bottom: 23px;
   font-size: 2.4000000000000004rem;
   line-height: 4.8rem;
-  color: #333333;
+  color: inherit;
   border: 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #eeeeee;
 }
 /* line 33, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 legend small {
   font-size: 1.7999999999999998rem;
-  color: #999999;
+  color: #555555;
 }
 /* line 40, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 label,
@@ -1807,9 +1770,8 @@ textarea {
 /* line 55, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 label {
   display: block;
-  margin-bottom: 5px;
 }
-/* line 64, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 63, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 select,
 textarea,
 input[type="text"],
@@ -1830,26 +1792,24 @@ input[type="color"],
   display: inline-block;
   height: 2.4rem;
   padding: 4px 6px;
-  margin-bottom: 1.2rem;
+  margin: 7px 0;
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #555555;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
   vertical-align: middle;
 }
-/* line 94, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 93, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 input,
 textarea,
 .uneditable-input {
   width: 206px;
 }
-/* line 100, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 99, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 textarea {
   height: auto;
 }
-/* line 104, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 103, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 textarea,
 input[type="text"],
 input[type="password"],
@@ -1868,15 +1828,10 @@ input[type="color"],
 .uneditable-input {
   background-color: #ffffff;
   border: 1px solid #cccccc;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border linear .2s, box-shadow linear .2s;
-  -moz-transition: border linear .2s, box-shadow linear .2s;
-  -o-transition: border linear .2s, box-shadow linear .2s;
   transition: border linear .2s, box-shadow linear .2s;
 }
-/* line 126, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 125, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -1893,19 +1848,17 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: rgba(82, 168, 236, 0.8);
+  border-color: #049cdb;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
-  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
 }
-/* line 135, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 134, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 input[type="radio"],
 input[type="checkbox"] {
-  margin: 4px 0 0;
+  margin: 5px 0;
   line-height: normal;
 }
-/* line 143, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 142, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 input[type="file"],
 input[type="image"],
 input[type="submit"],
@@ -1915,7 +1868,7 @@ input[type="radio"],
 input[type="checkbox"] {
   width: auto;
 }
-/* line 154, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 153, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 select,
 input[type="file"] {
   height: 2.4rem;
@@ -1923,18 +1876,18 @@ input[type="file"] {
 
   line-height: 2.4rem;
 }
-/* line 162, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 161, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 select {
   width: 220px;
   border: 1px solid #cccccc;
   background-color: #ffffff;
 }
-/* line 169, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 168, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 select[multiple],
 select[size] {
   height: auto;
 }
-/* line 175, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 174, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 select:focus,
 input[type="file"]:focus,
 input[type="radio"]:focus,
@@ -1943,23 +1896,21 @@ input[type="checkbox"]:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-/* line 187, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 186, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .uneditable-input,
 .uneditable-textarea {
   color: #999999;
   background-color: #fcfcfc;
   border-color: #cccccc;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
-  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
   cursor: not-allowed;
 }
-/* line 197, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 196, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .uneditable-input {
   overflow: hidden;
   white-space: nowrap;
 }
-/* line 203, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 202, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .uneditable-textarea {
   width: auto;
   height: auto;
@@ -1979,24 +1930,24 @@ input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   color: #999999;
 }
-/* line 223, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 222, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .radio,
 .checkbox {
   min-height: 2.4rem;
   padding-left: 20px;
 }
-/* line 228, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 227, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
   float: left;
   margin-left: -20px;
 }
-/* line 235, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 234, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .controls > .radio:first-child,
 .controls > .checkbox:first-child {
   padding-top: 5px;
 }
-/* line 242, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 241, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .radio.inline,
 .checkbox.inline {
   display: inline-block;
@@ -2004,36 +1955,36 @@ textarea::-webkit-input-placeholder {
   margin-bottom: 0;
   vertical-align: middle;
 }
-/* line 249, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 248, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
   margin-left: 10px;
 }
-/* line 260, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 259, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-mini {
   width: 60px;
 }
-/* line 261, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 260, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-small {
   width: 90px;
 }
-/* line 262, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 261, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-medium {
   width: 150px;
 }
-/* line 263, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 262, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-large {
   width: 210px;
 }
-/* line 264, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 263, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-xlarge {
   width: 270px;
 }
-/* line 265, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 264, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-xxlarge {
   width: 530px;
 }
-/* line 268, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 267, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 input[class*="span"],
 select[class*="span"],
 textarea[class*="span"],
@@ -2045,7 +1996,7 @@ textarea[class*="span"],
   float: none;
   margin-left: 0;
 }
-/* line 281, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 280, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append input[class*="span"],
 .input-append .uneditable-input[class*="span"],
 .input-prepend input[class*="span"],
@@ -2151,12 +2102,12 @@ textarea.span1,
 .controls-row:after {
   clear: both;
 }
-/* line 308, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 307, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .controls-row [class*="span"],
 .row-fluid .controls-row [class*="span"] {
   float: left;
 }
-/* line 314, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 313, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .controls-row .checkbox[class*="span"],
 .controls-row .radio[class*="span"] {
   padding-top: 5px;
@@ -2329,7 +2280,7 @@ textarea.span1,
     width: 28px;
   }
 }
-/* line 336, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 335, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 input[disabled],
 select[disabled],
 textarea[disabled],
@@ -2339,7 +2290,7 @@ textarea[readonly] {
   cursor: not-allowed;
   background-color: #eeeeee;
 }
-/* line 346, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 345, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 input[type="radio"][disabled],
 input[type="checkbox"][disabled],
 input[type="radio"][readonly],
@@ -2365,8 +2316,6 @@ input[type="checkbox"][readonly] {
 .control-group.warning select,
 .control-group.warning textarea {
   border-color: #c09853;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 163, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
@@ -2374,8 +2323,6 @@ input[type="checkbox"][readonly] {
 .control-group.warning select:focus,
 .control-group.warning textarea:focus {
   border-color: #a47e3c;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
 }
 /* line 170, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
@@ -2404,8 +2351,6 @@ input[type="checkbox"][readonly] {
 .control-group.error select,
 .control-group.error textarea {
   border-color: #b94a48;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 163, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
@@ -2413,8 +2358,6 @@ input[type="checkbox"][readonly] {
 .control-group.error select:focus,
 .control-group.error textarea:focus {
   border-color: #953b39;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
 }
 /* line 170, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
@@ -2443,8 +2386,6 @@ input[type="checkbox"][readonly] {
 .control-group.success select,
 .control-group.success textarea {
   border-color: #468847;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 163, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
@@ -2452,8 +2393,6 @@ input[type="checkbox"][readonly] {
 .control-group.success select:focus,
 .control-group.success textarea:focus {
   border-color: #356635;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
 }
 /* line 170, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
@@ -2482,8 +2421,6 @@ input[type="checkbox"][readonly] {
 .control-group.info select,
 .control-group.info textarea {
   border-color: #3a87ad;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 /* line 163, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
@@ -2491,8 +2428,6 @@ input[type="checkbox"][readonly] {
 .control-group.info select:focus,
 .control-group.info textarea:focus {
   border-color: #2d6987;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
 }
 /* line 170, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
@@ -2513,7 +2448,7 @@ select:focus:invalid {
     .box-shadow(@shadow);
   }
 }*/
-/* line 395, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 394, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-actions {
   padding: 1.4rem 20px 2.4rem;
   margin-top: 2.4rem;
@@ -2532,23 +2467,23 @@ select:focus:invalid {
 .form-actions:after {
   clear: both;
 }
-/* line 409, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 408, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .help-block,
 .help-inline {
   color: #484848;
 }
-/* line 414, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 413, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .help-block {
   display: block;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2.4rem;
 }
-/* line 419, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 418, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .help-inline {
   display: inline-block;
   vertical-align: middle;
   padding-left: 5px;
 }
-/* line 432, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 431, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append,
 .input-prepend {
   display: inline-block;
@@ -2557,7 +2492,7 @@ select:focus:invalid {
   font-size: 0;
   white-space: nowrap;
 }
-/* line 441, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 440, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append input,
 .input-prepend input,
 .input-append select,
@@ -2570,7 +2505,7 @@ select:focus:invalid {
 .input-prepend .popover {
   font-size: 1.6rem;
 }
-/* line 449, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 448, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append input,
 .input-prepend input,
 .input-append select,
@@ -2580,11 +2515,9 @@ select:focus:invalid {
   position: relative;
   margin-bottom: 0;
   vertical-align: top;
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
 }
-/* line 458, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 457, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append input:focus,
 .input-prepend input:focus,
 .input-append select:focus,
@@ -2593,7 +2526,7 @@ select:focus:invalid {
 .input-prepend .uneditable-input:focus {
   z-index: 2;
 }
-/* line 462, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 461, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append .add-on,
 .input-prepend .add-on {
   display: inline-block;
@@ -2609,7 +2542,7 @@ select:focus:invalid {
   background-color: #eeeeee;
   border: 1px solid #ccc;
 }
-/* line 476, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 475, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append .add-on,
 .input-prepend .add-on,
 .input-append .btn,
@@ -2617,136 +2550,106 @@ select:focus:invalid {
 .input-append .btn-group > .dropdown-toggle,
 .input-prepend .btn-group > .dropdown-toggle {
   vertical-align: top;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 482, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 481, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append .active,
 .input-prepend .active {
   background-color: #a9dba9;
   border-color: #46a546;
 }
-/* line 489, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 488, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-prepend .add-on,
 .input-prepend .btn {
   margin-right: -1px;
 }
-/* line 493, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 492, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-prepend .add-on:first-child,
 .input-prepend .btn:first-child {
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
-/* line 501, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 500, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append input,
 .input-append select,
 .input-append .uneditable-input {
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
-/* line 505, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 504, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append input + .btn-group .btn:last-child,
 .input-append select + .btn-group .btn:last-child,
 .input-append .uneditable-input + .btn-group .btn:last-child {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
 }
-/* line 509, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 508, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append .add-on,
 .input-append .btn,
 .input-append .btn-group {
   margin-left: -1px;
 }
-/* line 514, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 513, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-append .add-on:last-child,
 .input-append .btn:last-child,
 .input-append .btn-group:last-child > .dropdown-toggle {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
 }
-/* line 523, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 522, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-prepend.input-append input,
 .input-prepend.input-append select,
 .input-prepend.input-append .uneditable-input {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 527, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 526, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-prepend.input-append input + .btn-group .btn,
 .input-prepend.input-append select + .btn-group .btn,
 .input-prepend.input-append .uneditable-input + .btn-group .btn {
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
 }
-/* line 531, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 530, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-prepend.input-append .add-on:first-child,
 .input-prepend.input-append .btn:first-child {
   margin-right: -1px;
-  -webkit-border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
   border-radius: 4px 0 0 4px;
 }
-/* line 536, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 535, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-prepend.input-append .add-on:last-child,
 .input-prepend.input-append .btn:last-child {
   margin-left: -1px;
-  -webkit-border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
 }
-/* line 541, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 540, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .input-prepend.input-append .btn-group:first-child {
   margin-left: 0;
 }
-/* line 552, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 551, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 input.search-query {
   padding-right: 14px;
   padding-left: 14px;
   margin-bottom: 0;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
   border-radius: 15px;
 }
 /* Allow for input prepend/append in search forms */
-/* line 561, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 560, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search .input-append .search-query,
 .form-search .input-prepend .search-query {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 565, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 564, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search .input-append .search-query {
-  -webkit-border-radius: 14px 0 0 14px;
-  -moz-border-radius: 14px 0 0 14px;
   border-radius: 14px 0 0 14px;
 }
-/* line 568, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 567, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search .input-append .btn {
-  -webkit-border-radius: 0 14px 14px 0;
-  -moz-border-radius: 0 14px 14px 0;
   border-radius: 0 14px 14px 0;
 }
-/* line 571, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 570, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search .input-prepend .search-query {
-  -webkit-border-radius: 0 14px 14px 0;
-  -moz-border-radius: 0 14px 14px 0;
   border-radius: 0 14px 14px 0;
 }
-/* line 574, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 573, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search .input-prepend .btn {
-  -webkit-border-radius: 14px 0 0 14px;
-  -moz-border-radius: 14px 0 0 14px;
   border-radius: 14px 0 0 14px;
 }
-/* line 590, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 589, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search input,
 .form-inline input,
 .form-horizontal input,
@@ -2772,27 +2675,27 @@ input.search-query {
   margin-bottom: 0;
   vertical-align: middle;
 }
-/* line 603, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 602, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search .hide,
 .form-inline .hide,
 .form-horizontal .hide {
   display: none;
 }
-/* line 607, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 606, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search label,
 .form-inline label,
 .form-search .btn-group,
 .form-inline .btn-group {
   display: inline-block;
 }
-/* line 614, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 613, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search .input-append,
 .form-inline .input-append,
 .form-search .input-prepend,
 .form-inline .input-prepend {
   margin-bottom: 0;
 }
-/* line 621, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 620, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search .radio,
 .form-search .checkbox,
 .form-inline .radio,
@@ -2801,7 +2704,7 @@ input.search-query {
   margin-bottom: 0;
   vertical-align: middle;
 }
-/* line 630, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 629, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-search .radio input[type="radio"],
 .form-search .checkbox input[type="checkbox"],
 .form-inline .radio input[type="radio"],
@@ -2810,16 +2713,16 @@ input.search-query {
   margin-right: 3px;
   margin-left: 0;
 }
-/* line 641, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 640, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .control-group {
   margin-bottom: 1.2rem;
 }
-/* line 646, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 645, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 legend + .control-group {
   margin-top: 2.4rem;
   -webkit-margin-top-collapse: separate;
 }
-/* line 656, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 655, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-horizontal .control-group {
   margin-bottom: 2.4rem;
 }
@@ -2834,22 +2737,22 @@ legend + .control-group {
 .form-horizontal .control-group:after {
   clear: both;
 }
-/* line 661, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 660, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-horizontal .control-label {
   float: left;
   width: 160px;
   padding-top: 5px;
   text-align: right;
 }
-/* line 668, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 667, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-horizontal .controls {
   margin-left: 180px;
 }
-/* line 673, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 672, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-horizontal .help-block {
   margin-bottom: 0;
 }
-/* line 683, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 682, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-horizontal input + .help-block,
 .form-horizontal select + .help-block,
 .form-horizontal textarea + .help-block,
@@ -2858,22 +2761,20 @@ legend + .control-group {
 .form-horizontal .input-append + .help-block {
   margin-top: 1.2rem;
 }
-/* line 688, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+/* line 687, /Users/crockett/Development/CSS/mystrap/less/forms.less */
 .form-horizontal .form-actions {
   padding-left: 180px;
 }
 @media (max-width: 767px) {
-  /* line 701, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+  /* line 700, /Users/crockett/Development/CSS/mystrap/less/forms.less */
   .uneditable-input[class*="span"] {
     float: none;
     display: block;
     width: 100%;
     margin-left: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 712, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+  /* line 711, /Users/crockett/Development/CSS/mystrap/less/forms.less */
   .input-large,
   .input-xlarge,
   .input-xxlarge,
@@ -2884,11 +2785,9 @@ legend + .control-group {
     display: block;
     width: 100%;
     min-height: 2.4rem;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 722, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+  /* line 721, /Users/crockett/Development/CSS/mystrap/less/forms.less */
   .input-prepend input,
   .input-append input,
   .input-prepend input[class*="span"],
@@ -2896,35 +2795,338 @@ legend + .control-group {
     display: inline-block;
     width: auto;
   }
-  /* line 729, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+  /* line 728, /Users/crockett/Development/CSS/mystrap/less/forms.less */
   .controls-row [class*="span"] + [class*="span"] {
     margin-left: 0;
   }
 }
 @media (max-width: 480px) {
-  /* line 743, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+  /* line 742, /Users/crockett/Development/CSS/mystrap/less/forms.less */
   input[type="checkbox"],
   input[type="radio"] {
     border: 1px solid #ccc;
   }
-  /* line 750, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+  /* line 749, /Users/crockett/Development/CSS/mystrap/less/forms.less */
   .form-horizontal .control-label {
     float: none;
     width: auto;
     padding-top: 0;
     text-align: left;
   }
-  /* line 757, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+  /* line 756, /Users/crockett/Development/CSS/mystrap/less/forms.less */
   .form-horizontal .controls {
     margin-left: 0;
   }
-  /* line 761, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+  /* line 760, /Users/crockett/Development/CSS/mystrap/less/forms.less */
   .form-horizontal .control-list {
     padding-top: 0;
   }
-  /* line 765, /Users/crockett/Development/CSS/mystrap/less/forms.less */
+  /* line 764, /Users/crockett/Development/CSS/mystrap/less/forms.less */
   .form-horizontal .form-actions {
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+/* line 10, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn {
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: -5px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #333333;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border: 1px solid #cccccc;
+  border-bottom-color: #b3b3b3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+/* line 511, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+}
+/* line 29, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  transition: background-position 0.1s linear;
+}
+/* line 41, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+/* line 46, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn.active,
+.btn:active {
+  background-image: none;
+  outline: 0;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+/* line 54, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn.disabled,
+.btn[disabled] {
+  cursor: default;
+  background-image: none;
+  opacity: 0.65;
+  box-shadow: none;
+}
+/* line 70, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-large {
+  padding: 11px 19px;
+  font-size: 2rem;
+  border-radius: 6px;
+}
+/* line 75, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-large [class^="icon-"],
+.btn-large [class*=" icon-"] {
+  margin-top: 4px;
+}
+/* line 81, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-small {
+  padding: 8px 2px;
+  font-size: 1.36rem;
+  border-radius: 3px;
+}
+/* line 86, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-small [class^="icon-"],
+.btn-small [class*=" icon-"] {
+  margin-top: 0;
+}
+/* line 90, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-mini [class^="icon-"],
+.btn-mini [class*=" icon-"] {
+  margin-top: -1px;
+}
+/* line 96, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-mini {
+  padding: 0 6px;
+  font-size: 1.2000000000000002rem;
+  border-radius: 3px;
+}
+/* line 106, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+/* line 115, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-block + .btn-block {
+  margin-top: 5px;
+}
+/* line 123, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+  width: 100%;
+}
+/* line 134, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+/* line 145, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-primary {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+/* line 511, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+}
+/* line 149, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-warning {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #faa732;
+  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
+  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
+  background-image: -o-linear-gradient(top, #fbb450, #f89406);
+  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-repeat: repeat-x;
+  border-color: #f89406 #f89406 #ad6704;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+/* line 511, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled] {
+  color: #ffffff;
+  background-color: #f89406;
+}
+/* line 153, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-danger {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #da4f49;
+  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+/* line 511, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  color: #ffffff;
+  background-color: #bd362f;
+}
+/* line 157, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-success {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #5bb75b;
+  background-image: -moz-linear-gradient(top, #62c462, #51a351);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
+  background-image: -o-linear-gradient(top, #62c462, #51a351);
+  background-image: linear-gradient(to bottom, #62c462, #51a351);
+  background-repeat: repeat-x;
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+/* line 511, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  color: #ffffff;
+  background-color: #51a351;
+}
+/* line 161, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-info {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+/* line 511, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+  color: #ffffff;
+  background-color: #2f96b4;
+}
+/* line 165, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-inverse {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #363636;
+  background-image: -moz-linear-gradient(top, #444444, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+  background-image: -webkit-linear-gradient(top, #444444, #222222);
+  background-image: -o-linear-gradient(top, #444444, #222222);
+  background-image: linear-gradient(to bottom, #444444, #222222);
+  background-repeat: repeat-x;
+  border-color: #222222 #222222 #000000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+/* line 511, /Users/crockett/Development/CSS/mystrap/less/mixins.less */
+.btn-inverse:hover,
+.btn-inverse:focus,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.disabled,
+.btn-inverse[disabled] {
+  color: #ffffff;
+  background-color: #222222;
+}
+/* line 177, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+button.btn::-moz-focus-inner,
+input[type="submit"].btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+/* line 201, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-link,
+.btn-link:active,
+.btn-link[disabled] {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+}
+/* line 208, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-link {
+  border-color: transparent;
+  cursor: pointer;
+  color: #0088cc;
+  border-radius: 0;
+}
+/* line 214, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-link:hover,
+.btn-link:focus {
+  color: #005580;
+  text-decoration: underline;
+  background-color: transparent;
+}
+/* line 220, /Users/crockett/Development/CSS/mystrap/less/buttons.less */
+.btn-link[disabled]:hover,
+.btn-link[disabled]:focus {
+  color: #333333;
+  text-decoration: none;
 }
